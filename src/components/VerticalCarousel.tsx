@@ -28,7 +28,7 @@ export function VerticalCarousel() {
             <div className="p-1">
               <Card className="rounded-sm bg-transparent border-none cursor-pointer hover:scale-105 transition-all ">
                 <CardContent className="flex items-center justify-center p-6 h-[300px]  ">
-                  <TaleCard />
+                  <TaleCard name={"Horror Stories"} date={new Date()} image={""} description={""} />
                 </CardContent>
               </Card>
             </div>

@@ -84,7 +84,7 @@ export default function HomePage() {
   return (
     <main className="flex items-center flex-col relative ">
       <Link href={"/"}>
-        <Undo2 className="absolute top-5 left-5 text-white hover:scale-105 transition-all cursor-pointer" />
+        <Undo2 className="absolute z-30 top-5 left-5 text-white hover:scale-105 transition-all cursor-pointer" />
       </Link>
 
       <Image
